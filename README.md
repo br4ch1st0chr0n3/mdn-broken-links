@@ -1,0 +1,11 @@
+# Broken links
+
+
+The file [out.csv](./out.csv) contains a table of broken links which I got via 
+```sh
+linkinator -r --format=csv --concurrency=400 --verbosity=error https://developer.mozilla.org/ru/docs/Web |& tee -a out.csv
+```
+
+For this task, I installed [linkinator](https://github.com/JustinBeckwith/linkinator#installation)
+
+Please suggest how at least some of these broken links can be efficiently updated on the website.
