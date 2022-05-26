@@ -8,4 +8,4 @@ linkinator -r --format=csv --concurrency=400 --verbosity=error https://developer
 
 For this task, I installed [linkinator](https://github.com/JustinBeckwith/linkinator#installation)
 
-Please suggest how at least some of these broken links can be efficiently updated on the website.
+Please suggest in issues how at least some of these broken links can be efficiently updated on the website.
